@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer{
+    background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    background-image: -webkit-linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    padding: 50px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fromContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h2{
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    font-weight: 300;
+}
+
+.inputText{
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+}
+
+.dropdown{
+    height: 50px;
+    margin-top: 10px;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+}
+
+.displayText{
+    height: 50px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+}
+
+.btn{
+    height: 150px;
+    width: 100px;
+    margin-left: 30px;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
